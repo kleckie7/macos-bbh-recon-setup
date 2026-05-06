@@ -2,7 +2,7 @@
 
 **Capturing the attack surface — the same way I capture moments behind the lens.**
 
-![Real recon screenshot](https://github.com/kleckie7/macos-bbh-recon-setup/raw/main/screenshots/https---www.kentlphotography.com-443.jpeg)
+![Real recon screenshot](screenshots/https---www.kentlphotography.com-443.jpeg)
 
 A complete, one-command bug bounty / pentest recon pipeline built on a **MacBook Pro (zsh + Homebrew)**.
 
@@ -18,37 +18,37 @@ A complete, one-command bug bounty / pentest recon pipeline built on a **MacBook
 - **OS**: macOS (May 2026)
 - **Shell**: zsh
 - **Package manager**: Homebrew
-- **Challenges overcome**: conda `(base)` PATH conflicts, whatweb Ruby errors, gowitness flag changes, Squarespace rate-limiting
+- **Challenges overcome**: conda PATH conflicts, whatweb Ruby errors, gowitness flag changes, Squarespace rate-limiting
 
 ## One-Click Recon Script
+
 Just run:
-```bash
-~/recon-kent.sh
-It does:
 
-Subdomain enumeration (subfinder)
-Live host check (httpx)
-Port scan (nmap)
-Directory fuzzing (ffuf)
-Visual screenshots (gowitness)
-Vulnerability scan (nikto)
+    ~/recon-kent.sh
 
-Skills Demonstrated
+**It does:**
+- Subdomain enumeration (subfinder)
+- Live host check (httpx)
+- Port scan (nmap)
+- Directory fuzzing (ffuf)
+- Visual screenshots (gowitness)
+- Vulnerability scan (nikto)
 
-Tool chaining & automation
-macOS-specific troubleshooting
-Safe, ethical recon on own assets
-Clear technical documentation
-Understanding modern hosting behavior (Squarespace)
+## Skills Demonstrated
+- Tool chaining & automation
+- macOS-specific troubleshooting
+- Safe, ethical recon on own assets
+- Clear technical documentation
+- Understanding modern hosting behavior (Squarespace)
 
-Future Enhancements (planned)
+## Future Enhancements (planned)
+- JS endpoint extraction
+- Git secret scanning (trufflehog)
+- Cloud/S3 bucket checks
+- Auto HTML report generation
 
-JS endpoint extraction
-Git secret scanning (trufflehog)
-Cloud/S3 bucket checks
-Auto HTML report generation
-
+---
 
 Built by Kent Leckie — Photographer | Aspiring SOC Analyst | Bug Bounty Learner
-kentlphotography.com | LinkedIn
-“Turning curiosity into capability — one terminal command at a time.”
+[kentlphotography.com](https://www.kentlphotography.com) | LinkedIn
+*"Turning curiosity into capability — one terminal command at a time."*
