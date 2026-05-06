@@ -1,0 +1,277 @@
+# Nmap 7.99 scan initiated Tue May  5 20:53:57 2026 as: nmap -Pn -sV -sC -T3 -oN nmap.txt kentlphotography.com
+Nmap scan report for kentlphotography.com (198.185.159.145)
+Host is up (0.039s latency).
+Other addresses for kentlphotography.com (not scanned): 198.49.23.144 198.49.23.145 198.185.159.144
+Not shown: 996 filtered tcp ports (no-response)
+PORT     STATE  SERVICE  VERSION
+43/tcp   closed whois
+80/tcp   open   http     Golang net/http server
+|_http-title: Did not follow redirect to https://kentlphotography.com/
+|_http-server-header: Squarespace
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.0 403 Forbidden
+|     Connection: close
+|     Server: Squarespace
+|     X-Contextid: CFMa7IG3/eSpp54aK
+|     X-Sqsp-Edge: true
+|     Date: Wed, 06 May 2026 00:54:11 GMT
+|     Content-Length: 1434
+|     Content-Type: text/html; charset=utf-8
+|     <!DOCTYPE html>
+|     <head>
+|     <title>403 Forbidden</title>
+|     <meta name="viewport" content="width=device-width, initial-scale=1">
+|     <style type="text/css">
+|     body {
+|     background: white;
+|     main {
+|     position: absolute;
+|     top: 50%;
+|     left: 50%;
+|     transform: translate(-50%, -50%);
+|     text-align: center;
+|     min-width: 95vw;
+|     main h1 {
+|     font-weight: 400;
+|     font-size: 4.6em;
+|     color: #191919;
+|     margin: 0 0 11px 0;
+|     main p {
+|     font-size: 1.4em;
+|     color: #3a3a3a;
+|     font-weight: 400;
+|     line-height: 2em;
+|     margin: 0;
+|     main p a {
+|     color: #3a3a3a;
+|     text-decoration: none;
+|     border-bottom: solid 1px #3a3a3a;
+|     body {
+|     font-fam
+|   HTTPOptions: 
+|     HTTP/1.0 403 Forbidden
+|     Connection: close
+|     Server: Squarespace
+|     X-Contextid: IeH61V7j/fPdI5M5J
+|     X-Sqsp-Edge: true
+|     Date: Wed, 06 May 2026 00:54:11 GMT
+|     Content-Length: 1434
+|     Content-Type: text/html; charset=utf-8
+|     <!DOCTYPE html>
+|     <head>
+|     <title>403 Forbidden</title>
+|     <meta name="viewport" content="width=device-width, initial-scale=1">
+|     <style type="text/css">
+|     body {
+|     background: white;
+|     main {
+|     position: absolute;
+|     top: 50%;
+|     left: 50%;
+|     transform: translate(-50%, -50%);
+|     text-align: center;
+|     min-width: 95vw;
+|     main h1 {
+|     font-weight: 400;
+|     font-size: 4.6em;
+|     color: #191919;
+|     margin: 0 0 11px 0;
+|     main p {
+|     font-size: 1.4em;
+|     color: #3a3a3a;
+|     font-weight: 400;
+|     line-height: 2em;
+|     margin: 0;
+|     main p a {
+|     color: #3a3a3a;
+|     text-decoration: none;
+|     border-bottom: solid 1px #3a3a3a;
+|     body {
+|_    font-fam
+443/tcp  open   ssl/http Golang net/http server
+| http-robots.txt: 27 disallowed entries (15 shown)
+| /config /search /account$ /account/ 
+| /commerce/digital-download/ /api/ /static/ /*?author=* /*&author=* /*?tag=* 
+|_/*&tag=* /*?month=* /*&month=* /*?view=* /*&view=*
+|_ssl-date: TLS randomness does not represent time
+|_http-title: Kent Leckie Photography
+| ssl-cert: Subject: commonName=kentlphotography.com
+| Subject Alternative Name: DNS:kentlphotography.com
+| Not valid before: 2026-03-11T06:38:49
+|_Not valid after:  2026-06-09T06:38:48
+|_http-server-header: Squarespace
+| fingerprint-strings: 
+|   GetRequest: 
+|     HTTP/1.0 403 Forbidden
+|     Connection: close
+|     Server: Squarespace
+|     X-Contextid: TZvXI5v0/5xbekB6N
+|     X-Sqsp-Edge: true
+|     Date: Wed, 06 May 2026 00:54:17 GMT
+|     Content-Length: 1434
+|     Content-Type: text/html; charset=utf-8
+|     <!DOCTYPE html>
+|     <head>
+|     <title>403 Forbidden</title>
+|     <meta name="viewport" content="width=device-width, initial-scale=1">
+|     <style type="text/css">
+|     body {
+|     background: white;
+|     main {
+|     position: absolute;
+|     top: 50%;
+|     left: 50%;
+|     transform: translate(-50%, -50%);
+|     text-align: center;
+|     min-width: 95vw;
+|     main h1 {
+|     font-weight: 400;
+|     font-size: 4.6em;
+|     color: #191919;
+|     margin: 0 0 11px 0;
+|     main p {
+|     font-size: 1.4em;
+|     color: #3a3a3a;
+|     font-weight: 400;
+|     line-height: 2em;
+|     margin: 0;
+|     main p a {
+|     color: #3a3a3a;
+|     text-decoration: none;
+|     border-bottom: solid 1px #3a3a3a;
+|     body {
+|     font-fam
+|   HTTPOptions: 
+|     HTTP/1.0 403 Forbidden
+|     Connection: close
+|     Server: Squarespace
+|     X-Contextid: EstLMos4/mXoGWwcl
+|     X-Sqsp-Edge: true
+|     Date: Wed, 06 May 2026 00:54:17 GMT
+|     Content-Length: 1434
+|     Content-Type: text/html; charset=utf-8
+|     <!DOCTYPE html>
+|     <head>
+|     <title>403 Forbidden</title>
+|     <meta name="viewport" content="width=device-width, initial-scale=1">
+|     <style type="text/css">
+|     body {
+|     background: white;
+|     main {
+|     position: absolute;
+|     top: 50%;
+|     left: 50%;
+|     transform: translate(-50%, -50%);
+|     text-align: center;
+|     min-width: 95vw;
+|     main h1 {
+|     font-weight: 400;
+|     font-size: 4.6em;
+|     color: #191919;
+|     margin: 0 0 11px 0;
+|     main p {
+|     font-size: 1.4em;
+|     color: #3a3a3a;
+|     font-weight: 400;
+|     line-height: 2em;
+|     margin: 0;
+|     main p a {
+|     color: #3a3a3a;
+|     text-decoration: none;
+|     border-bottom: solid 1px #3a3a3a;
+|     body {
+|_    font-fam
+2030/tcp closed device2
+2 services unrecognized despite returning data. If you know the service/version, please submit the following fingerprints at https://nmap.org/cgi-bin/submit.cgi?new-service :
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port80-TCP:V=7.99%I=7%D=5/5%Time=69FA9133%P=arm-apple-darwin25.3.0%r(Ge
+SF:tRequest,672,"HTTP/1\.0\x20403\x20Forbidden\r\nConnection:\x20close\r\n
+SF:Server:\x20Squarespace\r\nX-Contextid:\x20CFMa7IG3/eSpp54aK\r\nX-Sqsp-E
+SF:dge:\x20true\r\nDate:\x20Wed,\x2006\x20May\x202026\x2000:54:11\x20GMT\r
+SF:\nContent-Length:\x201434\r\nContent-Type:\x20text/html;\x20charset=utf
+SF:-8\r\n\r\n<!DOCTYPE\x20html>\n<head>\n\x20\x20<title>403\x20Forbidden</
+SF:title>\n\x20\x20<meta\x20name=\"viewport\"\x20content=\"width=device-wi
+SF:dth,\x20initial-scale=1\">\n\x20\x20<style\x20type=\"text/css\">\n\x20\
+SF:x20body\x20{\n\x20\x20\x20\x20background:\x20white;\n\x20\x20}\n\n\x20\
+SF:x20main\x20{\n\x20\x20\x20\x20position:\x20absolute;\n\x20\x20\x20\x20t
+SF:op:\x2050%;\n\x20\x20\x20\x20left:\x2050%;\n\x20\x20\x20\x20transform:\
+SF:x20translate\(-50%,\x20-50%\);\n\x20\x20\x20\x20text-align:\x20center;\
+SF:n\x20\x20\x20\x20min-width:\x2095vw;\n\x20\x20}\n\n\x20\x20main\x20h1\x
+SF:20{\n\x20\x20\x20\x20font-weight:\x20400;\n\x20\x20\x20\x20font-size:\x
+SF:204\.6em;\n\x20\x20\x20\x20color:\x20#191919;\n\x20\x20\x20\x20margin:\
+SF:x200\x200\x2011px\x200;\n\x20\x20}\n\n\x20\x20main\x20p\x20{\n\x20\x20\
+SF:x20\x20font-size:\x201\.4em;\n\x20\x20\x20\x20color:\x20#3a3a3a;\n\x20\
+SF:x20\x20\x20font-weight:\x20400;\n\x20\x20\x20\x20line-height:\x202em;\n
+SF:\x20\x20\x20\x20margin:\x200;\n\x20\x20}\n\n\x20\x20main\x20p\x20a\x20{
+SF:\n\x20\x20\x20\x20color:\x20#3a3a3a;\n\x20\x20\x20\x20text-decoration:\
+SF:x20none;\n\x20\x20\x20\x20border-bottom:\x20solid\x201px\x20#3a3a3a;\n\
+SF:x20\x20}\n\n\x20\x20body\x20{\n\x20\x20\x20\x20font-fam")%r(HTTPOptions
+SF:,672,"HTTP/1\.0\x20403\x20Forbidden\r\nConnection:\x20close\r\nServer:\
+SF:x20Squarespace\r\nX-Contextid:\x20IeH61V7j/fPdI5M5J\r\nX-Sqsp-Edge:\x20
+SF:true\r\nDate:\x20Wed,\x2006\x20May\x202026\x2000:54:11\x20GMT\r\nConten
+SF:t-Length:\x201434\r\nContent-Type:\x20text/html;\x20charset=utf-8\r\n\r
+SF:\n<!DOCTYPE\x20html>\n<head>\n\x20\x20<title>403\x20Forbidden</title>\n
+SF:\x20\x20<meta\x20name=\"viewport\"\x20content=\"width=device-width,\x20
+SF:initial-scale=1\">\n\x20\x20<style\x20type=\"text/css\">\n\x20\x20body\
+SF:x20{\n\x20\x20\x20\x20background:\x20white;\n\x20\x20}\n\n\x20\x20main\
+SF:x20{\n\x20\x20\x20\x20position:\x20absolute;\n\x20\x20\x20\x20top:\x205
+SF:0%;\n\x20\x20\x20\x20left:\x2050%;\n\x20\x20\x20\x20transform:\x20trans
+SF:late\(-50%,\x20-50%\);\n\x20\x20\x20\x20text-align:\x20center;\n\x20\x2
+SF:0\x20\x20min-width:\x2095vw;\n\x20\x20}\n\n\x20\x20main\x20h1\x20{\n\x2
+SF:0\x20\x20\x20font-weight:\x20400;\n\x20\x20\x20\x20font-size:\x204\.6em
+SF:;\n\x20\x20\x20\x20color:\x20#191919;\n\x20\x20\x20\x20margin:\x200\x20
+SF:0\x2011px\x200;\n\x20\x20}\n\n\x20\x20main\x20p\x20{\n\x20\x20\x20\x20f
+SF:ont-size:\x201\.4em;\n\x20\x20\x20\x20color:\x20#3a3a3a;\n\x20\x20\x20\
+SF:x20font-weight:\x20400;\n\x20\x20\x20\x20line-height:\x202em;\n\x20\x20
+SF:\x20\x20margin:\x200;\n\x20\x20}\n\n\x20\x20main\x20p\x20a\x20{\n\x20\x
+SF:20\x20\x20color:\x20#3a3a3a;\n\x20\x20\x20\x20text-decoration:\x20none;
+SF:\n\x20\x20\x20\x20border-bottom:\x20solid\x201px\x20#3a3a3a;\n\x20\x20}
+SF:\n\n\x20\x20body\x20{\n\x20\x20\x20\x20font-fam");
+==============NEXT SERVICE FINGERPRINT (SUBMIT INDIVIDUALLY)==============
+SF-Port443-TCP:V=7.99%T=SSL%I=7%D=5/5%Time=69FA9139%P=arm-apple-darwin25.3
+SF:.0%r(GetRequest,672,"HTTP/1\.0\x20403\x20Forbidden\r\nConnection:\x20cl
+SF:ose\r\nServer:\x20Squarespace\r\nX-Contextid:\x20TZvXI5v0/5xbekB6N\r\nX
+SF:-Sqsp-Edge:\x20true\r\nDate:\x20Wed,\x2006\x20May\x202026\x2000:54:17\x
+SF:20GMT\r\nContent-Length:\x201434\r\nContent-Type:\x20text/html;\x20char
+SF:set=utf-8\r\n\r\n<!DOCTYPE\x20html>\n<head>\n\x20\x20<title>403\x20Forb
+SF:idden</title>\n\x20\x20<meta\x20name=\"viewport\"\x20content=\"width=de
+SF:vice-width,\x20initial-scale=1\">\n\x20\x20<style\x20type=\"text/css\">
+SF:\n\x20\x20body\x20{\n\x20\x20\x20\x20background:\x20white;\n\x20\x20}\n
+SF:\n\x20\x20main\x20{\n\x20\x20\x20\x20position:\x20absolute;\n\x20\x20\x
+SF:20\x20top:\x2050%;\n\x20\x20\x20\x20left:\x2050%;\n\x20\x20\x20\x20tran
+SF:sform:\x20translate\(-50%,\x20-50%\);\n\x20\x20\x20\x20text-align:\x20c
+SF:enter;\n\x20\x20\x20\x20min-width:\x2095vw;\n\x20\x20}\n\n\x20\x20main\
+SF:x20h1\x20{\n\x20\x20\x20\x20font-weight:\x20400;\n\x20\x20\x20\x20font-
+SF:size:\x204\.6em;\n\x20\x20\x20\x20color:\x20#191919;\n\x20\x20\x20\x20m
+SF:argin:\x200\x200\x2011px\x200;\n\x20\x20}\n\n\x20\x20main\x20p\x20{\n\x
+SF:20\x20\x20\x20font-size:\x201\.4em;\n\x20\x20\x20\x20color:\x20#3a3a3a;
+SF:\n\x20\x20\x20\x20font-weight:\x20400;\n\x20\x20\x20\x20line-height:\x2
+SF:02em;\n\x20\x20\x20\x20margin:\x200;\n\x20\x20}\n\n\x20\x20main\x20p\x2
+SF:0a\x20{\n\x20\x20\x20\x20color:\x20#3a3a3a;\n\x20\x20\x20\x20text-decor
+SF:ation:\x20none;\n\x20\x20\x20\x20border-bottom:\x20solid\x201px\x20#3a3
+SF:a3a;\n\x20\x20}\n\n\x20\x20body\x20{\n\x20\x20\x20\x20font-fam")%r(HTTP
+SF:Options,672,"HTTP/1\.0\x20403\x20Forbidden\r\nConnection:\x20close\r\nS
+SF:erver:\x20Squarespace\r\nX-Contextid:\x20EstLMos4/mXoGWwcl\r\nX-Sqsp-Ed
+SF:ge:\x20true\r\nDate:\x20Wed,\x2006\x20May\x202026\x2000:54:17\x20GMT\r\
+SF:nContent-Length:\x201434\r\nContent-Type:\x20text/html;\x20charset=utf-
+SF:8\r\n\r\n<!DOCTYPE\x20html>\n<head>\n\x20\x20<title>403\x20Forbidden</t
+SF:itle>\n\x20\x20<meta\x20name=\"viewport\"\x20content=\"width=device-wid
+SF:th,\x20initial-scale=1\">\n\x20\x20<style\x20type=\"text/css\">\n\x20\x
+SF:20body\x20{\n\x20\x20\x20\x20background:\x20white;\n\x20\x20}\n\n\x20\x
+SF:20main\x20{\n\x20\x20\x20\x20position:\x20absolute;\n\x20\x20\x20\x20to
+SF:p:\x2050%;\n\x20\x20\x20\x20left:\x2050%;\n\x20\x20\x20\x20transform:\x
+SF:20translate\(-50%,\x20-50%\);\n\x20\x20\x20\x20text-align:\x20center;\n
+SF:\x20\x20\x20\x20min-width:\x2095vw;\n\x20\x20}\n\n\x20\x20main\x20h1\x2
+SF:0{\n\x20\x20\x20\x20font-weight:\x20400;\n\x20\x20\x20\x20font-size:\x2
+SF:04\.6em;\n\x20\x20\x20\x20color:\x20#191919;\n\x20\x20\x20\x20margin:\x
+SF:200\x200\x2011px\x200;\n\x20\x20}\n\n\x20\x20main\x20p\x20{\n\x20\x20\x
+SF:20\x20font-size:\x201\.4em;\n\x20\x20\x20\x20color:\x20#3a3a3a;\n\x20\x
+SF:20\x20\x20font-weight:\x20400;\n\x20\x20\x20\x20line-height:\x202em;\n\
+SF:x20\x20\x20\x20margin:\x200;\n\x20\x20}\n\n\x20\x20main\x20p\x20a\x20{\
+SF:n\x20\x20\x20\x20color:\x20#3a3a3a;\n\x20\x20\x20\x20text-decoration:\x
+SF:20none;\n\x20\x20\x20\x20border-bottom:\x20solid\x201px\x20#3a3a3a;\n\x
+SF:20\x20}\n\n\x20\x20body\x20{\n\x20\x20\x20\x20font-fam");
+
+Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
+# Nmap done at Tue May  5 20:54:51 2026 -- 1 IP address (1 host up) scanned in 54.00 seconds
