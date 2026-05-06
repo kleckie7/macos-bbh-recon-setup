@@ -22,9 +22,7 @@ A complete, one-command bug bounty / pentest recon pipeline built on a **MacBook
 
 ## One-Click Recon Script
 
-Just run:
-
-    ~/recon-kent.sh
+Just run: `~/recon-kent.sh`
 
 **It does:**
 - Subdomain enumeration (subfinder)
@@ -49,6 +47,6 @@ Just run:
 
 ---
 
-Built by Kent Leckie — Photographer | Aspiring SOC Analyst | Bug Bounty Learner
-[kentlphotography.com](https://www.kentlphotography.com) | LinkedIn
-*"Turning curiosity into capability — one terminal command at a time."*
+Built by Kent Leckie — Photographer | Aspiring SOC Analyst | Bug Bounty Learner  
+[kentlphotography.com](https://www.kentlphotography.com) | LinkedIn  
+*Turning curiosity into capability — one terminal command at a time.*
